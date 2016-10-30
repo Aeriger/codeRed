@@ -1,0 +1,54 @@
+{
+    "author": "Aeriger",
+    "dependencies": {},
+    "keywords": [],
+    "name": "tutorial-1",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Tutorial 1",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/stripes.png",
+                    "name": "STRIPES_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bt_icon.png",
+                    "name": "IMAGE_BLUETOOTH_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/dimis_.ttf",
+                    "name": "FONT_DIMIS_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/dimis_.ttf",
+                    "name": "FONT_DIMIS_25",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "2fa1eb7e-6785-4500-b1da-1fc2df0612a9",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
